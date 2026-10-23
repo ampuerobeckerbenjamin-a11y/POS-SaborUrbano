@@ -49,7 +49,8 @@ while caja_abierta:
         monto_total_diario = monto_total_diario + total_final_cliente
         print("Monto Total Diario: ", monto_total_diario)
     elif opcion == "2":
-        print("TOTAL ACUMULADO DEL DIA")
+     print("TOTAL ACUMULADO DEL DIA",monto_total_diario)
+    
     elif opcion == "3":
         print("CERRAR CAJA Y SALIR")
         caja_abierta = False
